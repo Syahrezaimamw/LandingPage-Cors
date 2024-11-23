@@ -9,17 +9,23 @@ const Navbar = () => {
             path: ""
         },
         {
-            Title: 'About',
+            Title: 'Package',
+            path: ""
+        },
+        {
+            Title: 'Superiority',
+            path: ""
+        },
+        {
+            Title: 'History',
             path: ""
         },
         {
             Title: 'Comment',
             path: ""
         },
-        {
-            Title: 'Contact',
-            path: ""
-        },
+      
+
     ]
     return (
         <nav className="fixed top-0 z-20 w-full bg-white border-gray-200 shadow-md">
@@ -56,7 +62,7 @@ const Navbar = () => {
                                 <li key={i} className='w-full mt-2 rounded-md hover:bg-df md:bg-white hover:text-white group bg-neutral-100 md:mt-0'>
                                     <a
                                         href="#"
-                                        className="block px-3 py-2 text-gray-900 rounded hover:text-df md:hover:bg-white md:bg-transparent md:group-hover:text-gray-900 group-hover:text-white md:p-0 "
+                                        className="block px-3 py-2 text-black rounded hover:text-df md:hover:bg-white md:bg-transparent md:group-hover:text-gray-900 group-hover:text-white md:p-0 "
                                         aria-current="page"
                                     >
                                         {e.Title}
